@@ -32,6 +32,7 @@ import axios from 'axios';
     <p>{{ post.title }}</p>
     <p>{{ post.body }}</p>
     <p>{{ post.image }}</p>
+    <p>{{ post.id }}</p>
     </div>
     <hr/>
   </div>

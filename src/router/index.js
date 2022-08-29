@@ -5,12 +5,18 @@ import Posts from "../views/PostsIndex.vue";
 import Login from "../views/LoginView.vue";
 import Logout from "../views/LogoutView.vue";
 import PostsNew from "../views/PostsNew.vue";
+import PostsShow from "../views/PostsShow.vue";
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/posts/:id',
+    name: 'posts-show',
+    component: PostsShow
   },
   {
     path: '/posts/new',
