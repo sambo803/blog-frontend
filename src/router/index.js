@@ -4,12 +4,18 @@ import Signup from "../views/SignupView.vue";
 import Posts from "../views/PostsIndex.vue";
 import Login from "../views/LoginView.vue";
 import Logout from "../views/LogoutView.vue";
+import PostsNew from "../views/PostsNew.vue";
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/posts/new',
+    name: 'posts-new',
+    component: PostsNew
   },
   {
     path: '/posts',
