@@ -28,8 +28,10 @@ import axios from 'axios';
     <h1>{{ message }}</h1>
     <!-- {{ posts }} -->
     <div v-for="post in posts">
+    
     <p>{{ post.user_id }}</p>
-    <p>{{ post.title }}</p>
+    <!-- <p> <a v-bind:href="'posts/' + post.id"> {{ post.title }}</a></p> -->
+     <p> <a v-bind:href="`/posts/${post.id}`"> {{ post.title }}</a></p>
     <p>{{ post.body }}</p>
     <p>{{ post.image }}</p>
     <p>{{ post.id }}</p>

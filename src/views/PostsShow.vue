@@ -32,4 +32,7 @@ import axios from 'axios';
  </div>
 </template>
 
-<style></style>
+<style>
+
+  
+</style>

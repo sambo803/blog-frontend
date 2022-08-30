@@ -2,7 +2,7 @@
   export default {
     data: function () {
       return {
-        message: "Welcome to Home Vue.js!",
+        message: "Welcome to Home Vue.js!!!",
       };
     },
     created: function () {},
@@ -17,4 +17,6 @@
   </div>
 </template>
 
-<style></style>
+<style>
+
+</style>
